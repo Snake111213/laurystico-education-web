@@ -1,4 +1,5 @@
-import { NextResponse, type NextRequest } from 'next/server';
+import type { NextRequest } from 'next/dist/server/web/spec-extension/request';
+import { NextResponse } from 'next/server';
 
 const PUBLIC_PATHS = new Set<string>([
   '/',
