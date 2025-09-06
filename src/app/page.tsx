@@ -19,7 +19,7 @@ export default function HomePage() {
             Explora nuestras especialidades
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Cursos diseñados para convertir tu curiosidad en habilidades del futuro
+            Cursos diseñados para convertirtu curiosidad en habilidades del futuro
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-6">
