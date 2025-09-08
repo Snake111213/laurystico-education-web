@@ -3,6 +3,10 @@
 import { useMemo, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
+// Añadir configuración de exportación estática
+export const dynamic = 'force-dynamic';
+export const runtime = 'edge';
+
 export default function LoginPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
